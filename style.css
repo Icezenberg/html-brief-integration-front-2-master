@@ -101,3 +101,20 @@ font-family: "Raleway", sans-serif;
     background: #081e5b;
     height: 200px;
 }
+.contact-datas{
+    height: 200px;
+}
+
+.rlborder {
+    border-right: solid 1px #ebebeb;
+    border-left: solid 1px #ebebeb;
+}
+
+.send-button {
+    background: #50d8af;
+}
+
+footer{
+    background: #f2f5f8;
+    height: 100px;
+}
