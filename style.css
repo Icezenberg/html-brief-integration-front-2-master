@@ -25,9 +25,11 @@ font-family: "Raleway", sans-serif;
     color: black;
 }
 .col6-police {
-    color: #e4f4fb
+    color: #e4f4fb;
 }
-
+.col7-police {
+    color: white;
+}
 
 
 .font-type1 {
@@ -93,4 +95,9 @@ font-family: "Raleway", sans-serif;
 }
 .testimonial-box {
     box-shadow:3px 3px 3px 3px gray;
+}
+
+.call-to-action {
+    background: #081e5b;
+    height: 200px;
 }
