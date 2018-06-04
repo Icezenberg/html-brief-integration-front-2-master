@@ -21,6 +21,14 @@ font-family: "Raleway", sans-serif;
 .col4-police {
     color: #444444;
 }
+.col5-police {
+    color: black;
+}
+.col6-police {
+    color: #e4f4fb
+}
+
+
 
 .font-type1 {
     font-size: 70px;
@@ -74,4 +82,15 @@ font-family: "Raleway", sans-serif;
 
 .service-box {
     box-shadow: 10px 10px whitesmoke;
+}
+
+.testimonial {
+    width: 400px;
+}
+.testimonial-pictures {
+    width: 100px;
+    height: 100px
+}
+.testimonial-box {
+    box-shadow:3px 3px 3px 3px gray;
 }
