@@ -1,0 +1,25 @@
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+.col1-police {
+    color: #68646d;
+}
+.contact-spacing {
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+
+.contact {
+    width: 40%;
+}
+.social {
+
+    width: 40%;
+}
+
+my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
