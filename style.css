@@ -99,7 +99,7 @@ font-family: "Raleway", sans-serif;
 
 .call-to-action {
     background: #081e5b;
-    height: 200px;
+    height: auto;
 }
 .contact-datas{
     height: 200px;
@@ -117,4 +117,12 @@ font-family: "Raleway", sans-serif;
 footer{
     background: #f2f5f8;
     height: 100px;
+}
+
+.foot{
+    height: 100%;
+}
+
+.box-call-to{
+    height: auto;
 }
