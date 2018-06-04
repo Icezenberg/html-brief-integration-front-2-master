@@ -10,12 +10,18 @@ body{
 .col2-police {
     color: #50d8af;
 }
+
+.col3-police {
+    color: #0c2e8a;
+}
+
+.font-type1 {
+    font-size: 70px;
+}
 .contact-spacing {
     margin-right: 5px;
     margin-left: 5px
 }
-
-
 .contact {
     width: 40%;
 }
@@ -24,7 +30,30 @@ body{
     width: 40%;
 }
 
-my-0 {
+.my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.slider{
+ background: url(./html-brief-integration-front-2-master/img/3.jpg), no-repeat fixed ;
+ background-size: cover;
+ height: 700px;
+ position: absolute;
+ /* padding-left: 0px  !important;
+ padding-right: 0px  !important; */
+}
+
+.slider2 {
+    background: #e7eaeb;
+    opacity: 0.7;
+    height: 700px;
+    position: absolute;
+    /* padding-left: 0px  !important;
+    padding-right: 0px !important; */
+}
+
+
+.test {
+    width: 800px;
 }
