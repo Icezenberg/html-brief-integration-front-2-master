@@ -1,6 +1,10 @@
 body{
     font-family: "Raleway", sans-serif;
 }
+.gen-font {
+font-family: "Raleway", sans-serif;
+    
+}
 .logo {
     font-size:150px;
 }
@@ -39,7 +43,7 @@ body{
  background: url(./html-brief-integration-front-2-master/img/3.jpg), no-repeat fixed ;
  background-size: cover;
  height: 700px;
- position: absolute;
+ /* position: absolute; */
  /* padding-left: 0px  !important;
  padding-right: 0px  !important; */
 }

@@ -21,14 +21,18 @@
     <section class="container-fluid">
         <div class="container  my-2">
             <div class="row d-flex justify-content-between col1-police">
-                <div class="contact d-flex p-1">
-                    <i class="far fa-envelope contact-spacing"></i>
-                    <p> contact@example |</p>
-                    <i class="fas fa-phone contact-spacing"></i>
-                    <p> +1 5589 55488 55</p>
+                <div class="col-md-4 contact d-flex p-1">
+                    <div>
+                        <i class="far fa-envelope contact-spacing"></i>
+                        <p> contact@example |</p>
+                        <i class="fas fa-phone contact-spacing"></i>
+                    </div>
+                    <div>
+                    <span class="d-block"> +1 5589 55488 55</span>
+                     </div>
                 </div>
 
-                <div class=" social d-flex justify-content-end contact-spacing">
+                <div class=" col-md-4 social d-flex justify-content-end contact-spacing">
                     <i class="fab fa-twitter contact-spacing"></i> |
                     <i class="fab fa-facebook-f contact-spacing"></i> |
                     <i class="fab fa-instagram contact-spacing"></i> |
@@ -43,7 +47,8 @@
     <div class="container ">
         <nav class=" row navbar navbar-expand-lg ">
             <a class="navbar-brand col1-police" href="#">
-                <b class="font-weight-bold">Reve<span class="col2-police">al</span>
+                <b class="font-weight-bold">Reve
+                    <span class="col2-police">al</span>
                 </b>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
@@ -100,20 +105,49 @@
     <div class="container-fluid slider p-0 text-center">
         <div class="container-fluid slider2 p-0 d-flex align-items-center justify-content-center">
             <div class="test jumbotron">
-                <h1 class="font-weight-bold font-type1 col3-police ">Making<span class="col2-police"><u> your Ideas </u></span> <br> happen!</h1>
-                <button type="button" class="btn btn-primary mx-2 font-weight-bold px-4 py-2">Get Started</button><button type="button" class="btn btn-success mx-2 font-weight-bold px-4  py-2">Our Projects</button>
+                <h1 class="font-weight-bold font-type1 col3-police ">Making
+                    <span class="col2-police">
+                        <u> your Ideas </u>
+                    </span>
+                    <br> happen!</h1>
+                <button type="button" class="btn btn-primary mx-2 font-weight-bold px-4 py-2">Get Started</button>
+                <button type="button" class="btn btn-success mx-2 font-weight-bold px-4 py-2">Our Projects</button>
             </div>
         </div>
     </div>
     <!-- début du main de ma page -->
+    <main class="container">
+        <!-- un article avec une illustration  -->
+        <article class="container">
+            <div class="row my-5">
+                <div class="col-md-5">
+                    <img class="img-fluid" src="./html-brief-integration-front-2-master/img/about-img.jpg" alt="illustraion d'un ordinateur"
+                        srcset="">
+                </div>
+
+                <div class="col-md-7 col1-police">
+                    <h3 class="col3-police font-weight-bold">adipo adipisci commodi vel quidem officia dolorum consectetur.</h3>
+
+                    <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,</p>
+
+                    <i class="far fa-check-circle my-2 col2-police"><span class="gen-font col1-police"> Lorem ipsum dolor sit amet consectetur adipisicing elit</span></i><br>
+                    <i class="far fa-check-circle  my-2 col2-police"><span class="gen-font col1-police"> Lorem ipsum dolor sit amet consectetur adipisicing elit</span></i><br>
+                    <i class="far fa-check-circle  my-2 col2-police"><span class="gen-font col1-police"> Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit 
+                        amet consectetur adipisicing elit. Nisi, porro cumque! Eligendi amet consectetur adipisicing elit. Nisi, porro cumque! Eligendi</span></i> 
 
 
-    <!-- un article avec une illustration  -->
-    <!-- une section Service / un paragraphe d'introduction / des blocs x4 pour les différents services proposés -->
-    <!-- une section Témoignages / un paragraphe /3 témoignages illustré par des blocs avec du texte et une images  -->
-    <!-- un section Call to Action / un paragraphe et un bouton  -->
-    <!-- Un section relatif aux informations de contact/ un formulaire de contact-->
-    <!-- un Footer relatif aux informations cde copyright -->
+                </div>
+            </div>
+        </article>
+        <!-- une section Service / un paragraphe d'introduction / des blocs x4 pour les différents services proposés -->
+        <!-- une section Témoignages / un paragraphe /3 témoignages illustré par des blocs avec du texte et une images  -->
+        <!-- un section Call to Action / un paragraphe et un bouton  -->
+        <!-- Un section relatif aux informations de contact/ un formulaire de contact-->
+        <!-- un Footer relatif aux informations cde copyright -->
+
+    </main>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
